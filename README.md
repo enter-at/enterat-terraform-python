@@ -25,5 +25,6 @@ $ docker build . -t enterat/terraform-python:<tf-version>-<revision>
 $ docker push enterat/terraform-python:<tf-version>-<revision>
 
 # Update 'latest' tag
-$ docker tag
+$ docker tag enterat/terraform-python:<tf-version><revision> enterat/terraform-python:latest
+$ docker push enterat/terraform-python:latest
 ```
